@@ -1,0 +1,34 @@
+.calculadora {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 400px;
+  margin: 20px;
+}
+
+button, .resultado {
+  font-size: 16px;
+  background-color: #000000;
+  color: #fff;
+  padding: 10px;
+}
+
+.resultado { grid-area: 1 / 1 / 2 / 5; }
+.sete { grid-area: 2 / 1 / 3 / 2; }
+.oito { grid-area: 2 / 2 / 3 / 3; }
+.nove { grid-area: 2 / 3 / 3 / 4; }
+.divisao { grid-area: 2 / 4 / 3 / 5; }
+.quatro { grid-area: 3 / 1 / 4 / 2; }
+.cinco { grid-area: 3 / 2 / 4 / 3; }
+.seis { grid-area: 3 / 3 / 4 / 4; }
+.multiplicacao { grid-area: 3 / 4 / 4 / 5; }
+.um { grid-area: 4 / 1 / 5 / 2; }
+.dois { grid-area: 4 / 2 / 5 / 3; }
+.tres { grid-area: 4 / 3 / 5 / 4; }
+.subtracao { grid-area: 4 / 4 / 5 / 5; }
+.ac { grid-area: 5 / 1 / 6 / 2; }
+.zero { grid-area: 5 / 2 / 6 / 3; }
+.igual { grid-area: 5 / 3 / 6 / 4; }
+.soma { grid-area: 5 / 4 / 6 / 5; }
